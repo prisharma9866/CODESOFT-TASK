@@ -1,0 +1,134 @@
+/* html code for calculator */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style(cal).css"> 
+    <title>Calculator - calculate now </title>
+</head>
+<body>
+    <div class="cal">
+        <input type="text" placeholder="0" id="calBox">
+    <div>
+        <button>AC</button>
+        <button>DEL</button>
+        <button>%</button>
+        <button>/</button>
+        
+    </div>
+    <div>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button>*</button>
+        
+    </div>
+    <div>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>-</button>
+       
+    </div>
+    <div>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>+</button>
+        
+    </div>
+    <div>
+        <button>00</button>
+        <button>0</button>
+        <button>.</button>
+        <button>=</button>
+     </div>
+    </div>
+    <script src ="app(cal).js"></script>
+     
+    </body>
+</html>
+
+/* css file for calculator */
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size:bolder;
+}
+ body{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: rgba(0,0,0,0.1);
+ } 
+ input{
+   border:none;
+   height:50px;
+   padding:25px;
+   margin:10px;
+   background:transparent;
+   text-align: right;
+   font-weight:bolder;
+   font-size:larger;
+   color:white;
+
+ }
+ .cal{
+   padding:20px;
+   background:transparent;
+   background-color:rgba(0,0,0,0.65);
+   border:1px solid ;
+   border-radius:16px;
+   box-shadow: 5px;
+ }
+ button{
+   border:none;
+   border-radius:5px;
+   width:50px;
+   height:50px;
+   margin:10px;
+   color:grey;
+   font-weight:bolder;
+}
+button:hover{
+   opacity:1;
+   cursor:pointer;
+}
+ 
+/* js file for calculator */
+
+let input = document.getElementById('calBox');
+let buttons = document.querySelectorAll('button');
+
+let string ="";
+
+let arr =Array.from(buttons);
+arr.forEach(button =>{
+    button.addEventListener('click',(e) =>{
+        if(e.target.innerHTML == '='){
+            string = eval(string);
+            input.value =string;
+        }
+
+        else if(e.target.innerHTML == 'AC'){
+            string = "";
+            input.value = string;
+        }
+
+        else if(e.target.innerHTML =="DEL"){
+            string =string.substring(0,string.length-1);
+            input.value = string;
+        }
+        else{
+            
+        string += e.target.innerHTML;
+        input.value =string;
+        }
+
+    })
+})
