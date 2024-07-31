@@ -1,0 +1,342 @@
+/*html code for portfolio*/
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <link rel="stylesheet" href="style(portfolio).css">
+   
+     <title>My Portfolio</title>
+</head>
+<body>
+    <div>
+    <header class="seched">
+        <img class ="im"src="/images/new.jpg" alt="none">
+        <h1>priya sharma</h1>
+            <h3>fresher</h3>
+            <h4> 
+            <p class="p"> 
+                Dedicated IT graduate eager to contribute technical expertise to innovate projects.
+                Looking for role committed to continous learning and contributing to innovate projects.
+            </p>
+           </h4>
+    </header>
+    <hr />
+    <main>
+    <section class="ab" ><h1 class="h"><inline>ABOUT:</inline></h1>
+        
+         <p class="mypara">I am :</p>
+         <p class="mypara"> DEDICATED , HARDWORKING, PASSIONATE , CONFIDENT , INDEPENDENT, GOOD AT COMMUNICATION ,GOOD KNOWLEGE OF CODING</p>
+         <p class="mypara">I have done project on(travel and tourism) in the final semester of my UG program using (asp.net).</p>
+         <p class="mypara"> During the last year I have started a my own youtube  educational channel named as (all in one)</p>
+         <p class="mypara"> common subjects  studied during the UG program are :
+            <ul>
+             <li>c programming</li>
+             <li>c++</li>
+             <li>Database management system(DBMS)</li>
+             <li>data structure and algorithms</li>
+             <li>core java</li>
+             <li>python</li>
+         </p>
+            </ul>
+         <p class="mypara">Despite all this ,I am very good at communication skills and won many prizes in extempore and 
+          declamation competition
+          </p>
+        </section>
+       
+    <section class="myskills">
+        <h1 class="h1"> <inline>SKILLS</inline></h1>
+        <grid>
+        <div class = "grid">
+        <img class ="skillpics"src="/images/html.jpg" alt="random">
+        <img class ="skillpics"src="/images/cs.jpg" alt="random">
+        <img class ="skillpics"src="/images/js.jpg" alt="random">
+        <img class ="skillpics"src="/images/bootstrap.jpg" alt="random">
+        <img class ="skillpics"src="/images/nodejs.jpg" alt="random">
+        <img class ="skillpics"src="/images/reactjs.jpg" alt="random">
+        <img class ="skillpics"src="/images/mongodb.jpg" alt="random">
+        <img class ="skillpics"src="/images/github2.jpg" alt="random">
+        <img class ="skillpics"src="/images/problemsol.jpg" alt="random">
+        <img class ="skillpics"src="/images/datastructure.jpg" alt="random">
+        <img class ="skillpics"src="/images/communication.jpg" alt="random">
+        </div>
+        </div>
+         </grid>
+         </section>
+         <div class="projects">
+            <section class="Projects ">
+                <h1 class="right-title  pr1"><inline>Projects</inline></h1>
+                <div class="timeline">
+                    <div class="left-tl-content">
+                        <h5 class="tl-title">Html and css project</h5>
+                        <p class="mypara">25/12/2023-20/01/2024   </p>
+                    </div>
+                    <div class = "right-tl-content">
+                        <div class="tl-content">
+                            <h5 class="tl-title-2">Photography</h5>
+                            <p class="para">Title  : css -photography</p><br>
+                            <p class="para">Minor project with the basic HTML tags and CSS properties</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline">
+                    <div class="left-tl-content">
+                        <h5 class="tl-title">Html and css project</h5>
+                        <p class="mypara"> 10/2/2024- 15/3/2024</p>
+                    </div>
+                    <div class = "right-tl-content">
+                        <div class="tl-content">
+                            <h5 class="tl-title-2">Spotify Clone</h5>
+                            <p class="para"> Title : Spotify -web Player:Music for everyone</p><br>
+                            <p class="para">This project resembles to the main page of the spotify.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline">
+                    <div class="left-tl-content">
+                        <h5 class="tl-title">Javascript project</h5>
+                        <p class="mypara"> 1/3/2024- 5/4/2024</p>
+                    </div>
+                    <div class = "right-tl-content">
+                        <div class="tl-content">
+                            <h5 class="tl-title-2">Simon Game</h5>
+                            <p class="para"> Title : Simon sale game</p><br>
+                            <p class="para">Developed and utiized an various js element to generate and make it user-friendly responsive game.</p>                </p>
+                        </div>
+                    </div>
+                </div>
+            <div class="timeline">
+                <div class="left-tl-content">
+                    <h5 class="tl-title">Html & css & javascript project</h5>
+                    <p class="mypara"> 5/6/2024- 30/6/2024</p>
+                </div>
+                <div class = "right-tl-content">
+                    <div class="tl-content">
+                        <h5 class="tl-title-2">Basic Calculator</h5>
+                        <p class="para"> Title : Calculator - calculate Now </p><br>
+                        <p class="para">A responsive calculator with all basic operators to perform calculation made with the use of basic element of  html , css and javascript</p>
+                    </div>
+                </div>
+            </div>
+         </div>
+         <section class="contact">
+            <div class="cont">
+            <h1>contact details</h1>
+            <ul>
+                <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Gurdaspur , punjab
+                    </li>
+                <li>
+                    <i class="fa-solid fa-phone"></i>
+                    7589206795
+                 </li>
+                <li>
+                    <i class="fa-solid fa-envelope" ></i>
+                    ps106412@gmail.com
+                </li>
+                <li>
+                    <i class="fa-brands fa-linkedin"></i>
+                    priyasharma6795 
+                </li>
+                <li>
+                    <i class="fa-brands fa-github"></i>
+                    prisharma9866
+                </li>
+            </ul>
+        </div>
+         </section>
+         <section  class = "resume"> 
+            <h1>Resume</h1> 
+        <a href="index(cv).html"><button>Check CV</button></a>
+        </section>
+        <section class="footer">
+           <p class = "para-content"> &copy; </p>
+            <p class ="p-content">copyright , All Rights Reserved </p>
+        </section>
+         </main>
+         </div>
+
+</body>
+</html>
+
+/*css code for portfolio*/
+
+{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    list-style:none;
+    font-family:'nuntino','sans-serif';
+}
+ body{
+    width:100%;
+    height:100vh;
+    background-color: #f7f7f7;
+    }
+
+ .seched{
+    height:150px;
+    border-radius:15px;
+}
+ .im{
+    height:120px;
+    width:200px;
+    float:right;
+    margin:1rem;
+    border-radius:10px;
+    border: 3px solid #94d9ea;
+ }
+ h1{
+    color: #2d9cdb;
+    padding-left:.8rem;
+    padding-top:.8rem;
+    text-transform:uppercase;
+    font-size:2rem;
+    letter-spacing:1px;
+    }
+    h3{
+    padding-left:.8rem;
+    color:#2d9cdb;
+    text-transform:uppercase;
+    padding-bottom:.8rem;
+    }
+    .p{
+    padding-left:.8rem;
+    line-height:1.6rem;
+    color:#718096;
+    font-size:1.1rem;
+    }
+ .mypara{
+    padding-left:.8rem;
+    line-height:1.6rem;
+    color:#718096;
+    font-size:1.1rem;
+ }
+    li{
+    padding-left:.8rem;
+    line-height:1.6rem;
+    color:#718096;
+    font-size:1.1rem;
+    display:inline;
+    }
+    .grid{
+    display:grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:12px;
+    padding:.8rem;
+    }
+    .skillpics{
+    width:75px;
+    height:75px;
+    border:2px solid #94d9ea;
+    border-radius:5px;
+    }
+    .about{
+    padding-bottom:2rem;
+    }
+    .timeline{
+    display:grid;
+    grid-template-columns: repeat(2 ,1fr);
+    }
+    .tl-title{
+    letter-spacing:1px;
+    font-size:1.3rem;
+    color:#1b2d36;
+    padding-left:.8rem;
+    }
+    .tl-title-2{
+    letter-spacing:1px;
+    font-size:1.3rem;
+    color:#2D9CDB;
+    }
+    .tl-content{
+    border-left:1px solid #ccc;
+    padding-left:2rem;
+    position:relative;
+    padding-bottom:2rem;
+}
+.para{
+    line-height:1.6rem;
+    color:#718096;
+    font-size:1.1rem;
+}
+  .tl-title-2::before{
+    content:"";
+    position:absolute;
+    width:.6rem;
+    height:.6rem;
+    background-color:#2D9CDB;
+    border-radius:50%;
+    transform:translateX(-50%);
+    left:0; 
+  }
+
+    .pr1{
+    padding-bottom:.8rem;
+    }
+    .resume{
+    padding-bottom:.8rem;
+    margin-bottom:5px;
+    }
+    a{
+    text-decoration:none;
+    color:#718096;
+    line-height:1.6rem;
+    font-size:1.1rem;
+    text-align:center;
+    padding-left:.8rem;
+    }
+    button{
+    text-decoration:none;
+    color:#718096;
+    line-height:1.6rem;
+    font-size:1.1rem;
+    text-align:center;
+    border-radius:6px;
+   }
+   .cont{
+    padding-left:.8rem;
+    padding-bottom:.8rem;
+    cursor:pointer;
+   }
+   .cont ul li{
+    display:block;
+    line-height:1.6rem;
+    font-size:1.1rem;
+    padding-left:.8rem;
+   }
+   .cont i{
+    color:#2D9CDB;
+    margin-right:5px;
+    
+   }
+   .footer{
+    height:100px;
+    width:100%;
+    border-bottom: 5px solid #94d9ea;
+
+   }
+   .para-content{
+    padding-top:.8rem;
+    padding-left:.8rem;
+    padding-bottom:.8rem;
+    line-height:1.6rem;
+    color:#718096;
+    font-size:3rem;
+    text-align:center;
+    }
+   .p-content{
+    padding-left:.8rem;
+    line-height:1.6rem;
+    color:#718096;
+    font-size:1.1rem;
+    text-align:center;
+    }
+   
