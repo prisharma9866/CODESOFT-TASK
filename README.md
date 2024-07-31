@@ -19,13 +19,12 @@ DESCRIPTION:
 5. RESUME SECTION: I have a provided a link which allows all you to check out my resume.
 6. CONTACT SECTION: It includes the details of my contacts.
 7. FOOTER SECTION :  It includes a copyright symbols and additional links.
-8. ![Screenshot (26)](https://github.com/user-attachments/assets/ef59266f-b48e-43d3-9b7b-f91db3d5abae)
-9. 
-10. ![Screenshot (27)](https://github.com/user-attachments/assets/5029523b-d982-4398-9f30-a79aab8f5039)
-11. 
-12. ![Screenshot (29)](https://github.com/user-attachments/assets/0a385e14-2350-42a6-af5e-3b090e398e1d)
-
-
+   
+ ![Screenshot (26)](https://github.com/user-attachments/assets/ef59266f-b48e-43d3-9b7b-f91db3d5abae)
+   
+ ![Screenshot (27)](https://github.com/user-attachments/assets/5029523b-d982-4398-9f30-a79aab8f5039)
+    
+ ![Screenshot (29)](https://github.com/user-attachments/assets/0a385e14-2350-42a6-af5e-3b090e398e1d)
 
 CODESOFT-TASK 2:  creating Landing page
 PROJECT-TITLE : Landing page 
