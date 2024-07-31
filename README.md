@@ -18,7 +18,10 @@ DESCRIPTION:
 4. PROJECT SECTION: It list a various project that i have done and their details.
 5. RESUME SECTION: I have a provided a link which allows all you to check out my resume.
 6. CONTACT SECTION: It includes the details of my contacts.
-7. FOOTER SECTION :  It includes a copyright symbols and additional links. 
+7. FOOTER SECTION :  It includes a copyright symbols and additional links.![Screenshot (26)](https://github.com/user-attachments/assets/ef59266f-b48e-43d3-9b7b-f91db3d5abae)
+
+8. 
+ 
 
 CODESOFT-TASK 2:  creating Landing page
 PROJECT-TITLE : Landing page 
